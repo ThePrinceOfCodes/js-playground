@@ -8,21 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    
+    <div class="container">
+        <h2><span id="count"></span> Cars</h2>
+        <h2>
+            Click on the Button below to count Cars
+        </h2>
         <div>
-            <h2>
-                Click on the Button below to count Cars
-            </h2>
-            <div>
-                <button type="button" onclick='countCar()'>Count Cars</button>
-                <button type="button" onClick='displayCarCount()'>Save Count</button>
-            </div>
-            <h2 id="counting">Counting... Total number of cars is </h2>
-            <h2 id="save-count" style="display: none;">Counting done Total number of cars is </span></h2>
-            <h2><span id="count"></span></h2>
+            <button type="button" onclick='countCar()' class="btn">Count Cars</button>
+            <button type="button" onClick='displayCarCount()' class="btn">Save Count</button>
         </div>
+        <h2 id="counting">Counting...</h2>
+        <h2 id="save-count" style="display: none;">Counting done.</h2>
         
     </div>
+   
     <script src="main.js"></script>
 </body>
 </html>

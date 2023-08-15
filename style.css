@@ -6,3 +6,28 @@
 .hide{
     display: none;
 }
+
+.btn {
+    cursor: pointer;
+    color: wheat;
+    background: rgb(42, 61, 14);
+    border: transparent;
+    border-radius: 0.25rem;
+    letter-spacing: 1px;
+    padding: 0.375rem 0.75rem;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #3c3799;
+}
+
+.container {
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
